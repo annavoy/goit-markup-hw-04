@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
@@ -67,7 +67,7 @@ section {
 }
 
 .nav-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -118,12 +118,12 @@ address {
   margin-right: 0px;
 }
 
-/* <!-- SECTION HEAD --> */
-.head {
+/* <!-- SECTION HERO --> */
+.hero {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.head-title {
+.hero-title {
   max-width: 496px;
   font-weight: 700;
   font-size: 56px;
@@ -134,8 +134,8 @@ address {
   margin: 0 auto;
 }
 
-.head-button {
-  font-family: "Roboto", sans-serif;
+.hero-button {
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -224,7 +224,7 @@ address {
 }
 
 .main-photo {
-  background: url("path_to_image");
+  background: url('path_to_image');
 }
 .main-title {
   font-weight: 500;
@@ -284,7 +284,7 @@ address {
   padding: 100px 0;
 }
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
