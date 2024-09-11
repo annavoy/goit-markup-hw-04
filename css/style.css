@@ -89,12 +89,31 @@ section {
   display: block;
 }
 
-.nav-menu:hover {
+.nav-menu:hover,
+.nav-menu:focus,
+.nav-contacts:hover,
+.nav-contacts:focus {
   color: #404bbf;
 }
 
 .nav-menu :focus {
   color: #404bbf;
+}
+.current a {
+  position: relative;
+}
+.current a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+}
+.current a:hover::after {
+  background-color: #404bbf;
+  border-radius: 2px;
+  width: 100%;
+  transition: width 250ms ease;
 }
 address {
   font-style: normal;
@@ -121,6 +140,10 @@ address {
 /* <!-- SECTION HERO --> */
 .hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('/images/people-office.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
 }
 .hero-title {
