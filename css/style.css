@@ -192,6 +192,9 @@ address {
 }
 
 .page-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
@@ -274,24 +277,23 @@ address {
 }
 .social-list {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: row;
-  gap: 24px;
+  column-gap: 24px;
   margin-top: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 .social-link {
-  background-color: #4d5ae5;
-  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-.social-list .social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   fill: #fff;
+  background-color: #4d5ae5;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: #31d0aa;
 }
 
 /* SECTION PORTFOLIO */
@@ -361,6 +363,10 @@ address {
   background: #2e2f42;
   padding: 100px 0;
 }
+.footer-container {
+  display: flex;
+  column-gap: 120px;
+}
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -381,4 +387,11 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.footer-social-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-bottom: 8px;
 }
